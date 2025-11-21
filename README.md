@@ -1,4 +1,5 @@
 1. Project_Prediction Model
+
 Background:
 FinanKu is an imaginary fintech startup that provides savings and lending facilities to its customers. The services they offer include Savings Accounts, Time Deposits, Unsecured Loans, Credit Cards, and Vehicle Financing for Cars & Motorcycles.
 
@@ -17,6 +18,7 @@ To develop a Credit Card Default Prediction Model for FinanKu’s credit card fa
 
 
 2. Project_Clustering Model
+
 Background:
 FundFusion, a banking institution in Wakanda, aims to enhance its marketing efforts toward both existing and potential customers. One of its marketing strategies is conducting phone-based campaigns, or telemarketing, where products are promoted directly through phone calls.
 Currently, FundFusion does not have a clear strategy regarding which products should be offered when contacting prospective customers. Each account manager has different KPIs for customer acquisition based on the specific products offered by FundFusion, such as Savings Accounts, Time Deposits, Credit Cards, Home Loans, Vehicle Loans, or Personal Loans.
