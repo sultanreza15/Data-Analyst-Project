@@ -94,10 +94,12 @@ Based on the SQL analysis performed, here are the key insights:
 1. Best-Selling Products
 Insight: Smartphones (iPhone & Samsung) and accessories contribute the highest sales volume.
 Query: Utilized GROUP BY and SUM to calculate the total units sold per product.
+<img width="281" height="142" alt="image" src="https://github.com/user-attachments/assets/323b7843-5e32-4af3-9fd4-0a65f19a074e" />
 
 2. Loyal Customers (Top Spenders)
 Insight: Mr. Andi Saputra is the highest-value customer with a total transaction amount of Rp 38 million.
 Recommendation: Implement a loyalty program or exclusive offers for the Top 3 customers to maintain retention.
+<img width="372" height="95" alt="image" src="https://github.com/user-attachments/assets/b04bacc0-f736-4830-838a-a921675b3116" />
 
 3. Revenue Trend
 The store’s total current revenue is recorded at [Insert Total Revenue Here].
@@ -112,6 +114,5 @@ FROM transactions t
 JOIN customers c ON t.customer_id = c.customer_id
 JOIN products p ON t.product_id = p.product_id
 ORDER BY t.tanggal_transaksi DESC;
-
-<img width="297" height="147" alt="image" src="https://github.com/user-attachments/assets/f2494603-e3ab-4ed4-8e4f-21ebd1230279" />
+<img width="137" height="57" alt="image" src="https://github.com/user-attachments/assets/56363df3-a1c8-48b5-8d84-a11fcdd33fd4" />
 
