@@ -1,4 +1,4 @@
-# **1. Project_Prediction Model**
+# **1. Project_Prediction Model (Python-Jupyter Notebook)**
 
 **Background:**
 FinanKu is an imaginary fintech startup that provides savings and lending facilities to its customers. The services they offer include Savings Accounts, Time Deposits, Unsecured Loans, Credit Cards, and Vehicle Financing for Cars & Motorcycles.
@@ -17,7 +17,7 @@ FinanKu aims to identify lending customers who are likely to default as early as
 To develop a Credit Card Default Prediction Model for FinanKu’s credit card facilities.
 
 
-# **2. Project_Clustering Model**
+# **2. Project_Clustering Model (Python-Jupyter Notebook)**
 
 **Background:**
 FundFusion, a banking institution in Wakanda, aims to enhance its marketing efforts toward both existing and potential customers. One of its marketing strategies is conducting phone-based campaigns, or telemarketing, where products are promoted directly through phone calls.
@@ -34,7 +34,7 @@ Increase the acquisition of new customers by offering the right product that ali
 Develop a Clustering Model to identify product ownership patterns based on the demographic profiles of current FundFusion customers.
 
 
-# **3. Gadget Store Sales Analysis (SQL Project)**
+# **3. Gadget Store Sales Analysis (SQL)**
 
 **Project Description**
 This project aims to simulate a retail gadget store database and perform a comprehensive sales performance analysis. I designed a relational database, conducted data entry, and executed SQL queries to answer key business questions related to sales trends, top customers, and best-selling products.
