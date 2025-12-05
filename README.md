@@ -16,6 +16,18 @@ FinanKu aims to identify lending customers who are likely to default as early as
 **Analytical Objective:**
 To develop a Credit Card Default Prediction Model for FinanKu’s credit card facilities.
 
+**Conclusion**
+Across all models, the average accuracy exceeds 60%, but the recall remains below 40%. This indicates that many customers who are actually at risk of default are being incorrectly predicted as non-defaulters. Therefore, it can be concluded that the desired objective has not yet been achieved in this iteration of model development.
+
+**Potential Improvements for Future Development:**
+
+* Increase the sample size (number of customers), assuming the current dataset does not represent the full customer population.
+* Apply oversampling techniques to the minority class (defaults) to reduce model bias.
+* Extend the time horizon of the dataset.
+* Experiment with additional variable combinations (adding new variables or removing those with low importance in the latest results).
+* Broaden hyperparameter tuning combinations during model training.
+* Try alternative supervised machine learning algorithms.
+
 
 # **2. Project_Clustering Model (Python-Jupyter Notebook)**
 
