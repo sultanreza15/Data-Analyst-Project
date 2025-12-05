@@ -91,18 +91,19 @@ The database consists of three main relational tables:
 
 **Findings & Business Insights**
 Based on the SQL analysis performed, here are the key insights:
+
 1. Best-Selling Products
 Insight: Laptops are the highest-revenue product category, led by the Asus ROG (Rp 25 million) and MacBook (Rp 20 million), even though AirPods dominate in sales volume.
 Query: Utilized GROUP BY and SUM to calculate the total units sold per product.
 <img width="387" height="140" alt="image" src="https://github.com/user-attachments/assets/be87d848-e5da-4372-aa57-5cdc95f3becb" />
 <img width="281" height="142" alt="image" src="https://github.com/user-attachments/assets/323b7843-5e32-4af3-9fd4-0a65f19a074e" />
 
-3. Loyal Customers (Top Spenders)
+2. Loyal Customers (Top Spenders)
 Insight: Mr. Andi Saputra is the highest-value customer with a total transaction amount of Rp 38 million.
 Recommendation: Implement a loyalty program or exclusive offers for the Top 3 customers to maintain retention.
 <img width="372" height="95" alt="image" src="https://github.com/user-attachments/assets/b04bacc0-f736-4830-838a-a921675b3116" />
 
-4. Revenue Trend
+3. Revenue Trend
 The store’s total current revenue is recorded at [Insert Total Revenue Here].
 Code Snippets
 Below is an example SQL query used to join all three tables (JOIN):
