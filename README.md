@@ -45,6 +45,37 @@ Increase the acquisition of new customers by offering the right product that ali
 **Analytical Objective:**
 Develop a Clustering Model to identify product ownership patterns based on the demographic profiles of current FundFusion customers.
 
+**Conclusion**
+Based on the clustering modeling results using the K-Means algorithm, FundFusion’s customers naturally form three primary clusters, each with distinct demographic and financial behavior characteristics.
+These three clusters directly address the issue of high rejection rates caused by irrelevant product offers (spamming). Below is the profile summary of each customer cluster:
+
+1. Young Potential Cluster
+- Profile: Average age of 29 years.
+- Unique Characteristics: This is the most financially aware segment in terms of basic banking products, evidenced by a 100% ownership rate of Savings Accounts.
+- Insight: They are in the early stages of building assets but already maintain a healthy Total Relationship Balance. They represent an ideal long-term target segment.
+- Not Recommended: Savings Account offers.
+- Recommended Offers: Vehicle Loans & Credit Cards.
+- Reasoning: Since 100% of them already have a savings account, offering the same product is ineffective. Instead, focus on lifestyle-related products (credit cards) or first-vehicle financing (auto loans), which align well with their life stage in their 20s.
+
+2. Established Family Cluster
+- Profile: Average age of 45 years.
+- Unique Characteristics: They are in a stable life phase, with relatively even product ownership (around 98% own Savings Accounts). They typically have 1–2 children, indicating needs related to education funding or home improvement.
+- Not Recommended: Basic Savings Account.
+- Recommended Offers: Time Deposits & Home Loans.
+- Reasoning: Prioritize medium-term investment products (Time Deposits) for children’s education funds, or top-up home financing facilities to support household needs.
+
+3. Senior Priority Cluster
+- Profile: Average age of 59 years.
+- Unique Characteristics: Interestingly, despite being the oldest segment, they have the lowest rate of Savings Account ownership (~65%), even though their financial balances are comparatively high. This anomaly presents a significant opportunity.
+- Not Recommended: Long-term credit products.
+- Recommended Offers: Priority Savings Accounts & Time Deposits.
+- Reasoning: Around 35% of seniors do not yet have a Savings Account with FundFusion—this is a low-hanging-fruit acquisition opportunity. - Avoid offering long-tenor loans due to age-related risk factors.
+
+Projected Business Impact of Implementing This Clustering Strategy:
+1. Improved Telemarketing Efficiency: Account Managers will no longer waste time offering savings accounts to young customers who already have them.
+2. Reduced Churn & Block Rates: Customers will no longer feel spammed with irrelevant product offers, enhancing FundFusion’s brand reputation.
+3. Increased Cross-Selling: Targeting Seniors who lack Savings Accounts can significantly boost Third-Party Funds (DPK).
+
 
 # **3. Gadget Store Sales Analysis (SQL)**
 
