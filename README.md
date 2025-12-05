@@ -77,7 +77,7 @@ Projected Business Impact of Implementing This Clustering Strategy:
 3. Increased Cross-Selling: Targeting Seniors who lack Savings Accounts can significantly boost Third-Party Funds (DPK).
 
 
-# **3. Gadget Store Analysis (SQL)**
+# **3. Gadget Retail Analysis (SQL)**
 
 **Project Description**
 This project aims to simulate a retail gadget store database and perform a comprehensive sales performance analysis. I designed a relational database, conducted data entry, and executed SQL queries to answer key business questions related to sales trends, top customers, and best-selling products.
