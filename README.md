@@ -94,17 +94,17 @@ Based on the SQL analysis performed, here are the key insights:
 
 1. Best-Selling Products
 Insight: Laptops are the highest-revenue product category, led by the Asus ROG (Rp 25 million) and MacBook (Rp 20 million), even though AirPods dominate in sales volume.
-Query: Utilized GROUP BY and SUM to calculate the total units sold per product.
 <img width="387" height="140" alt="image" src="https://github.com/user-attachments/assets/be87d848-e5da-4372-aa57-5cdc95f3becb" />
 <img width="281" height="142" alt="image" src="https://github.com/user-attachments/assets/323b7843-5e32-4af3-9fd4-0a65f19a074e" />
 
 2. Loyal Customers (Top Spenders)
 Insight: Mr. Andi Saputra is the highest-value customer with a total transaction amount of Rp 38 million.
-Recommendation: Implement a loyalty program or exclusive offers for the Top 3 customers to maintain retention.
 <img width="372" height="95" alt="image" src="https://github.com/user-attachments/assets/b04bacc0-f736-4830-838a-a921675b3116" />
 
 3. Revenue Trend
-The store’s total current revenue is recorded at [Insert Total Revenue Here].
+The store’s total current revenue is recorded at:
+<img width="137" height="57" alt="image" src="https://github.com/user-attachments/assets/56363df3-a1c8-48b5-8d84-a11fcdd33fd4" />
+
 Code Snippets
 Below is an example SQL query used to join all three tables (JOIN):
 SELECT
@@ -116,5 +116,4 @@ FROM transactions t
 JOIN customers c ON t.customer_id = c.customer_id
 JOIN products p ON t.product_id = p.product_id
 ORDER BY t.tanggal_transaksi DESC;
-<img width="137" height="57" alt="image" src="https://github.com/user-attachments/assets/56363df3-a1c8-48b5-8d84-a11fcdd33fd4" />
 
