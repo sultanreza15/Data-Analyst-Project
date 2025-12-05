@@ -1,4 +1,4 @@
-# **1. Prediction Model (Python-Jupyter Notebook)** 
+# **1. Prediction Model (Python-Jupyter Notebook)**  
 
 **Background:**
 FinanKu is an imaginary fintech startup that provides savings and lending facilities to its customers. The services they offer include Savings Accounts, Time Deposits, Unsecured Loans, Credit Cards, and Vehicle Financing for Cars & Motorcycles.
