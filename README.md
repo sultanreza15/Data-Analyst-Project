@@ -113,4 +113,5 @@ JOIN customers c ON t.customer_id = c.customer_id
 JOIN products p ON t.product_id = p.product_id
 ORDER BY t.tanggal_transaksi DESC;
 
+<img width="297" height="147" alt="image" src="https://github.com/user-attachments/assets/f2494603-e3ab-4ed4-8e4f-21ebd1230279" />
 
