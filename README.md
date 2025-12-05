@@ -81,7 +81,7 @@ Projected Business Impact of Implementing This Clustering Strategy:
 
 **Project Description**
 This project aims to simulate a retail gadget store database and perform a comprehensive sales performance analysis. I designed a relational database, conducted data entry, and executed SQL queries to answer key business questions related to sales trends, top customers, and best-selling products.
-Tools Used: MySQL Workbench 8.0
+Tools Used: MySQL Workbench.
 
 **Database Structure (ERD)**
 The database consists of three main relational tables:
