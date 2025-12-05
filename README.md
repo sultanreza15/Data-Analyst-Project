@@ -104,16 +104,3 @@ Insight: Mr. Andi Saputra is the highest-value customer with a total transaction
 3. Revenue Trend
 The store’s total current revenue is recorded at:
 <img width="137" height="57" alt="image" src="https://github.com/user-attachments/assets/56363df3-a1c8-48b5-8d84-a11fcdd33fd4" />
-
-Code Snippets
-Below is an example SQL query used to join all three tables (JOIN):
-SELECT
-    t.tanggal_transaksi,
-    c.nama_lengkap,
-    p.nama_produk,
-    t.total_bayar
-FROM transactions t
-JOIN customers c ON t.customer_id = c.customer_id
-JOIN products p ON t.product_id = p.product_id
-ORDER BY t.tanggal_transaksi DESC;
-
