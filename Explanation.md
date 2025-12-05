@@ -92,7 +92,7 @@ The database consists of three main relational tables:
 **Findings & Business Insights**
 Based on the SQL analysis performed, here are the key insights:
 1. Best-Selling Products
-Insight: Smartphones (iPhone & Samsung) and accessories contribute the highest sales volume.
+Insight: Airpods contribute the highest sales volume.
 Query: Utilized GROUP BY and SUM to calculate the total units sold per product.
 <img width="281" height="142" alt="image" src="https://github.com/user-attachments/assets/323b7843-5e32-4af3-9fd4-0a65f19a074e" />
 
@@ -102,7 +102,7 @@ Recommendation: Implement a loyalty program or exclusive offers for the Top 3 cu
 <img width="372" height="95" alt="image" src="https://github.com/user-attachments/assets/b04bacc0-f736-4830-838a-a921675b3116" />
 
 3. Revenue Trend
-The store’s total current revenue is recorded at [Insert Total Revenue Here].
+The store’s total current revenue is recorded at.
 Code Snippets
 Below is an example SQL query used to join all three tables (JOIN):
 SELECT
