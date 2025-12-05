@@ -32,3 +32,42 @@ Increase the acquisition of new customers by offering the right product that ali
 
 **Analytical Objective:**
 Develop a Clustering Model to identify product ownership patterns based on the demographic profiles of current FundFusion customers.
+
+
+# **3. Gadget Store Sales Analysis (SQL Project)**
+
+**Project Description**
+This project aims to simulate a retail gadget store database and perform a comprehensive sales performance analysis. I designed a relational database, conducted data entry, and executed SQL queries to answer key business questions related to sales trends, top customers, and best-selling products.
+Tools Used: MySQL Workbench 8.0
+
+**Database Structure (ERD)**
+The database consists of three main relational tables:
+1. Customers: Stores customer demographic information.
+2. Products: Contains product inventory and pricing details.
+3. Transactions: Records purchase details (linking Customers and Products).
+
+**Findings & Business Insights**
+Based on the SQL analysis performed, here are the key insights:
+1. Best-Selling Products
+Insight: Smartphones (iPhone & Samsung) and accessories contribute the highest sales volume.
+Query: Utilized GROUP BY and SUM to calculate the total units sold per product.
+
+2. Loyal Customers (Top Spenders)
+Insight: Mr. Andi Saputra is the highest-value customer with a total transaction amount of Rp 38 million.
+Recommendation: Implement a loyalty program or exclusive offers for the Top 3 customers to maintain retention.
+
+3. Revenue Trend
+The store’s total current revenue is recorded at [Insert Total Revenue Here].
+Code Snippets
+Below is an example SQL query used to join all three tables (JOIN):
+SELECT
+    t.tanggal_transaksi,
+    c.nama_lengkap,
+    p.nama_produk,
+    t.total_bayar
+FROM transactions t
+JOIN customers c ON t.customer_id = c.customer_id
+JOIN products p ON t.product_id = p.product_id
+ORDER BY t.tanggal_transaksi DESC;
+
+
