@@ -1,4 +1,4 @@
-# **1. Project_Prediction Model (Python-Jupyter Notebook)**
+# **1. Prediction Model (Python-Jupyter Notebook)**
 
 **Background:**
 FinanKu is an imaginary fintech startup that provides savings and lending facilities to its customers. The services they offer include Savings Accounts, Time Deposits, Unsecured Loans, Credit Cards, and Vehicle Financing for Cars & Motorcycles.
@@ -29,7 +29,7 @@ Across all models, the average accuracy exceeds 60%, but the recall remains belo
 * Try alternative supervised machine learning algorithms.
 
 
-# **2. Project_Clustering Model (Python-Jupyter Notebook)**
+# **2. Clustering Model (Python-Jupyter Notebook)**
 
 **Background:**
 FundFusion, a banking institution in Wakanda, aims to enhance its marketing efforts toward both existing and potential customers. One of its marketing strategies is conducting phone-based campaigns, or telemarketing, where products are promoted directly through phone calls.
