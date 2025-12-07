@@ -92,3 +92,21 @@ The database consists of three main relational tables:
 **Findings & Business Insights**
 Based on the SQL analysis performed, here are the key insights:
 
+1. Full Transaction Report.
+<img width="790" height="132" alt="image" src="https://github.com/user-attachments/assets/e9167531-256d-4dbd-a432-6477631ef7aa" />
+
+2. Total Revenue
+<img width="135" height="50" alt="image" src="https://github.com/user-attachments/assets/8f4e2bf4-d072-4123-9cd7-04613dfa15a5" />
+
+3. Best Selling Product (By Volume)
+<img width="315" height="132" alt="image" src="https://github.com/user-attachments/assets/8390a5b7-782c-4475-a2ea-ae0fb14cbc5c" />
+
+4. Top Spender (Best Customer)
+<img width="400" height="97" alt="image" src="https://github.com/user-attachments/assets/05809bcb-396b-4286-bcec-5b346cc3bf1e" />
+
+5. Revenue Leader (By Product Value)
+<img width="453" height="137" alt="image" src="https://github.com/user-attachments/assets/8a7c266d-64b0-452a-98b6-3e195b6456a7" />
+
+
+
+
