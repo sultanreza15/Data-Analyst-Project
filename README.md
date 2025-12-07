@@ -79,20 +79,20 @@ Projected Business Impact of Implementing This Clustering Strategy:
 
 # **3. Gadget Retail Analysis (SQL)**
 
-**Project Description**
+**Project Description:**
 This project aims to simulate a retail gadget store database and perform a comprehensive sales performance analysis. I designed a relational database, conducted data entry, and executed SQL queries to answer key business questions related to sales trends, top customers, and best-selling products.
 Tools Used: MySQL Workbench.
 
-**Database Structure (ERD)**
+**Database Structure (ERD):**
 The database consists of three main relational tables:
 1. Customers: Stores customer demographic information.
 2. Products: Contains product inventory and pricing details.
 3. Transactions: Records purchase details (linking Customers and Products).
 
-**Findings & Business Insights**
+**Findings & Business Insights:**
 Based on the SQL analysis performed, here are the key insights:
 
-1. Full Transaction Report.
+1. Full Transaction Report
 <img width="790" height="132" alt="image" src="https://github.com/user-attachments/assets/e9167531-256d-4dbd-a432-6477631ef7aa" />
 
 2. Total Revenue
