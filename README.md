@@ -16,7 +16,7 @@ FinanKu aims to identify lending customers who are likely to default as early as
 **Analytical Objective:**
 To develop a Credit Card Default Prediction Model for FinanKu’s credit card facilities.
 
-**Conclusion**
+**Conclusion:**
 Across all models, the average accuracy exceeds 60%, but the recall remains below 40%. This indicates that many customers who are actually at risk of default are being incorrectly predicted as non-defaulters. Therefore, it can be concluded that the desired objective has not yet been achieved in this iteration of model development.
 
 **Potential Improvements for Future Development:**
@@ -45,7 +45,7 @@ Increase the acquisition of new customers by offering the right product that ali
 **Analytical Objective:**
 Develop a Clustering Model to identify product ownership patterns based on the demographic profiles of current FundFusion customers.
 
-**Conclusion**
+**Conclusion:**
 Based on the clustering modeling results using the K-Means algorithm, FundFusion’s customers naturally form three primary clusters, each with distinct demographic and financial behavior characteristics.
 These three clusters directly address the issue of high rejection rates caused by irrelevant product offers (spamming). Below is the profile summary of each customer cluster:
 
