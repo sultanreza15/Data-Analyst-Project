@@ -108,5 +108,83 @@ Based on the SQL analysis performed, here are the key insights:
 <img width="453" height="137" alt="image" src="https://github.com/user-attachments/assets/8a7c266d-64b0-452a-98b6-3e195b6456a7" />
 
 
+# 🏨 The Aurora Sky Hotel: Occupancy & Revenue Analysis
 
+## Project Overview
+**The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
 
+The goal is to provide the hotel management with a data-driven **Dashboard** to support decision-making regarding pricing strategies and marketing channel optimization.
+
+<img width="1572" height="586" alt="image" src="https://github.com/user-attachments/assets/82c230ea-63a0-4c7a-92cf-f734e0efca6d" />
+
+---
+
+### 💼 Business Problem & Objectives
+The management team required visibility into:
+1.  **Realized Revenue:** Ensuring cancelled bookings are not calculated into the financial forecast.
+2.  **Platform Performance:** Which booking channels (Agoda, Expedia, etc.) provide the most reliable guests?
+3.  **Room Type Analysis:** Which room category drives the most revenue vs. volume?
+4.  **Lead Time Insights:** How far in advance do guests book?
+
+---
+
+## Dataset Description
+The dataset consists of **30 records** (simulated data) representing hotel bookings.
+
+**Data Dictionary:**
+
+| Column Name | Description | Data Type |
+| :--- | :--- | :--- |
+| `Booking_ID` | Unique identifier for each booking | String |
+| `Guest_Name` | Name of the guest (Anonymized/Fictional) | String |
+| `Booking_Date` | Date when the reservation was made | Date |
+| `Check_In_Date` | Date of guest arrival | Date |
+| `Check_Out_Date` | Date of guest departure | Date |
+| `Room_Type` | Category of the room (Standard, Deluxe, Suite) | String |
+| `Nightly_Rate` | Price per night in USD | Currency |
+| `Booking_Status` | Status of the booking (Check-Out, Canceled, No-Show) | String |
+| `Platform` | Source of booking (Booking.com, Agoda, Direct, etc.) | String |
+
+---
+
+## Methodology & Technical Skills
+This project was built entirely in **Google Sheets** (compatible with Excel) to demonstrate data manipulation and visualization skills without using programming languages like Python or SQL.
+
+### 1. Data Cleaning & Feature Engineering
+Raw data was transformed to generate meaningful metrics. Key formulas used:
+
+* **Length of Stay (LOS):** Calculated the duration of the trip.
+    ```excel
+    = Check_Out_Date - Check_In_Date
+    ```
+
+* **Lead Time:** Calculated how many days in advance the booking was made.
+    ```excel
+    = Check_In_Date - Booking_Date
+    ```
+
+* **Realized Revenue (Logic):**
+    The most critical part of the analysis. A standard multiplication (`Price * Days`) would be incorrect because it includes cancelled bookings. I used a logical `IF` function to ensure only completed stays generate revenue.
+    ```excel
+    =IF(OR(Booking_Status="Canceled", Booking_Status="No-Show"), 0, Nightly_Rate * Length_of_Stay)
+    ```
+
+### 2. Exploratory Data Analysis (EDA)
+Used **Pivot Tables** to summarize key metrics:
+* *Revenue by Room Type* (Sum aggregation)
+* *Cancellation Rate by Platform* (Count aggregation)
+* *Average Lead Time by Guest Segment*
+
+### 3. Dashboard Implementation
+Created a visual dashboard focusing on clear, high-level KPIs:
+* **Scorecards:** Total Realized Revenue & Total Bookings.
+* **Bar Chart:** To compare revenue contribution per room type.
+* **Stacked Column Chart:** To visualize the ratio of Successful vs. Cancelled bookings per platform.
+
+---
+
+## Key Insights (Sample Findings)
+Based on the analysis of the sample dataset:
+1.  **Revenue Drivers:** While 'Standard' rooms have the highest volume of bookings, **'Suite'** rooms generate the highest revenue per booking due to the premium price point.
+2.  **Cancellation Risks:** **Expedia** showed a higher cancellation rate compared to Direct bookings, suggesting a need to review cancellation policies on OTA platforms.
+3.  **Lead Time:** Guests booking 'Suites' tend to book further in advance (High Lead Time) compared to 'Standard' room guests who are more likely to be last-minute bookers.
