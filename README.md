@@ -5,6 +5,7 @@
 - [D. The Aurora Sky Hotel Analyst (Excel)](#d-the-aurora-sky-hotel-analyst-excel)
 
 
+
 # **A. Prediction Model (Python-Jupyter Notebook)**  
 
 **Background:**
