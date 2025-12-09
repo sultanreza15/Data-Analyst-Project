@@ -169,7 +169,7 @@ Raw data was transformed to generate meaningful metrics. Key formulas used:
 
 ### 2. Exploratory Data Analysis (EDA)
 Used **Pivot Tables** to summarize key metrics:
-* *Revenue and Volume by Bookings by Room Type* (Sum and Count aggregation)
+* *Revenue and Volume of Bookings by Room Type* (Sum and Count aggregation)
 <img width="445" height="146" alt="image" src="https://github.com/user-attachments/assets/8d7d8ac0-cbaa-4b2e-9f64-d550bf9bcc5d" />
 
 * *Booking Status by Platform* (Count aggregation)
