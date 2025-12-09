@@ -108,7 +108,7 @@ Based on the SQL analysis performed, here are the key insights:
 <img width="453" height="137" alt="image" src="https://github.com/user-attachments/assets/8a7c266d-64b0-452a-98b6-3e195b6456a7" />
 
 
-# 4. The Aurora Sky Hotel: Occupancy & Revenue Analysis
+# 4. The Aurora Sky Hotel: Occupancy & Revenue Analysis (Excel)
 
 ## Project Overview
 **The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
