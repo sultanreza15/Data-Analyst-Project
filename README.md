@@ -164,20 +164,26 @@ Raw data was transformed to generate meaningful metrics. Key formulas used:
 * **Realized Revenue (Logic):**
     The most critical part of the analysis. A standard multiplication (`Price * Days`) would be incorrect because it includes cancelled bookings. I used a logical `IF` function to ensure only completed stays generate revenue.
     ```excel
-    =IF(OR(Booking_Status="Canceled", Booking_Status="No-Show"), 0, Nightly_Rate * Length_of_Stay)
+    =IF(OR(Booking_Status="Canceled"; Booking_Status="No-Show"); 0; Nightly_Rate * Length_of_Stay)
     ```
 
 ### 2. Exploratory Data Analysis (EDA)
 Used **Pivot Tables** to summarize key metrics:
 * *Revenue by Room Type* (Sum aggregation)
+<img width="293" height="151" alt="image" src="https://github.com/user-attachments/assets/2bd3183d-b7ba-45d1-be3b-2ebc5ebcbb23" />
 * *Cancellation Rate by Platform* (Count aggregation)
-* *Average Lead Time by Guest Segment*
+<img width="660" height="197" alt="image" src="https://github.com/user-attachments/assets/acd6e789-56b1-4be9-9e04-31ba523dd3cd" />
+* *Average Lead Time by Room Type*
+<img width="285" height="140" alt="image" src="https://github.com/user-attachments/assets/a117c875-9a75-4b11-b598-f0333dc6c467" />
 
 ### 3. Dashboard Implementation
 Created a visual dashboard focusing on clear, high-level KPIs:
-* **Scorecards:** Total Realized Revenue & Total Bookings.
-* **Bar Chart:** To compare revenue contribution per room type.
-* **Stacked Column Chart:** To visualize the ratio of Successful vs. Cancelled bookings per platform.
+* *Revenue by Room Type* (Sum aggregation)
+<img width="763" height="507" alt="image" src="https://github.com/user-attachments/assets/6d5cb967-ccc4-41f4-87b3-e237b1cc1d36" />
+* *Cancellation Rate by Platform* (Count aggregation)
+<img width="778" height="525" alt="image" src="https://github.com/user-attachments/assets/b6e88e6e-77e1-464d-b1c2-b85ab4d9985b" />
+* *Average Lead Time by Room Type*
+<img width="828" height="532" alt="image" src="https://github.com/user-attachments/assets/a5cf9132-0d9d-4711-a445-0564d2e70916" />
 
 ---
 
