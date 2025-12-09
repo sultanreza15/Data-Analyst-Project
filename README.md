@@ -1,7 +1,7 @@
 ## Table of Contents
 - [A. Prediction Model (Python-Jupyter Notebook)](#a-prediction-model-python-jupyter-notebook)
 - [B. Clustering Model (Python-Jupyter Notebook)](#b-clustering-model-python-jupyter-notebook)
-- [C. Smartphone Sales Analysis (SQL)](#c-smartphone-sales-analysis-sql)
+- [C. Smartphone Sales Analyst (SQL)](#c-smartphone-sales-analyst-sql)
 - [D. The Aurora Sky Hotel Analyst (Excel)](#d-the-aurora-sky-hotel-analyst-excel)
 
 
@@ -85,7 +85,7 @@ Projected Business Impact of Implementing This Clustering Strategy:
 3. Increased Cross-Selling: Targeting Seniors who lack Savings Accounts can significantly boost Third-Party Funds (DPK).
 
 
-# C. Smartphone Sales Analysis (SQL)
+# C. Smartphone Sales Analyst (SQL)
 
 ## Introduction
 
