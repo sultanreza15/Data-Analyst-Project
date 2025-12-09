@@ -1,3 +1,10 @@
+## Table of Contents
+- [1. Prediction Model (Python-Jupyter Notebook)](#1-prediction-model-python-jupyter-notebook)
+- [2. Clustering Model (Python-Jupyter Notebook)](#2-clustering-model-python-jupyter-notebook)
+- [3. Smartphone Sales Data Analysis Project (SQL)](#3-smartphone-sales-data-analysis-project-sql)
+- [4. The Aurora Sky Hotel Analyst (Excel)](#4-the-aurora-sky-hotel-analyst-excel)
+
+
 # **1. Prediction Model (Python-Jupyter Notebook)**  
 
 **Background:**
