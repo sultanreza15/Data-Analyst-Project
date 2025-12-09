@@ -169,21 +169,21 @@ Raw data was transformed to generate meaningful metrics. Key formulas used:
 
 ### 2. Exploratory Data Analysis (EDA)
 Used **Pivot Tables** to summarize key metrics:
-* *Revenue by Room Type* (Sum and Count aggregation)
+* *Revenue and Volume by Bookings by Room Type* (Sum and Count aggregation)
 <img width="445" height="146" alt="image" src="https://github.com/user-attachments/assets/8d7d8ac0-cbaa-4b2e-9f64-d550bf9bcc5d" />
 
-* *Cancellation Rate by Platform* (Count aggregation)
+* *Booking Status by Platform* (Count aggregation)
 <img width="701" height="198" alt="image" src="https://github.com/user-attachments/assets/c2d08d7b-3c69-454c-9dd4-cb5076af24c2" />
 
-* *Average Lead Time by Room Type*
+* *Average Lead Time by Room Type* (Count aggregation)
 <img width="285" height="147" alt="image" src="https://github.com/user-attachments/assets/6f649014-bdf6-49b9-8d8f-22654d6e725e" />
 
 ### 3. Dashboard Implementation
 Created a visual dashboard focusing on clear, high-level KPIs:
-* *Revenue by Room Type* (Sum aggregation)
+* *Revenue by Room Type*
 <img width="755" height="505" alt="image" src="https://github.com/user-attachments/assets/196d9c4a-7124-4111-8981-fc950ea690fa" />
 
-* *Cancellation Rate by Platform* (Count aggregation)
+* *Cancellation Rate by Platform*
 <img width="770" height="513" alt="image" src="https://github.com/user-attachments/assets/5ccabcf9-dc4d-4af8-9c51-c19180c06795" />
 
 * *Average Lead Time by Room Type*
