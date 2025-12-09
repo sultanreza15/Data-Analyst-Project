@@ -170,24 +170,24 @@ Raw data was transformed to generate meaningful metrics. Key formulas used:
 ### 2. Exploratory Data Analysis (EDA)
 Used **Pivot Tables** to summarize key metrics:
 * *Revenue by Room Type* (Sum aggregation)
-<img width="293" height="151" alt="image" src="https://github.com/user-attachments/assets/2bd3183d-b7ba-45d1-be3b-2ebc5ebcbb23" />
+<img width="445" height="146" alt="image" src="https://github.com/user-attachments/assets/8d7d8ac0-cbaa-4b2e-9f64-d550bf9bcc5d" />
 
 * *Cancellation Rate by Platform* (Count aggregation)
-<img width="660" height="197" alt="image" src="https://github.com/user-attachments/assets/acd6e789-56b1-4be9-9e04-31ba523dd3cd" />
+<img width="701" height="198" alt="image" src="https://github.com/user-attachments/assets/c2d08d7b-3c69-454c-9dd4-cb5076af24c2" />
 
 * *Average Lead Time by Room Type*
-<img width="285" height="140" alt="image" src="https://github.com/user-attachments/assets/a117c875-9a75-4b11-b598-f0333dc6c467" />
+<img width="285" height="147" alt="image" src="https://github.com/user-attachments/assets/6f649014-bdf6-49b9-8d8f-22654d6e725e" />
 
 ### 3. Dashboard Implementation
 Created a visual dashboard focusing on clear, high-level KPIs:
 * *Revenue by Room Type* (Sum aggregation)
-<img width="763" height="507" alt="image" src="https://github.com/user-attachments/assets/6d5cb967-ccc4-41f4-87b3-e237b1cc1d36" />
+<img width="755" height="505" alt="image" src="https://github.com/user-attachments/assets/196d9c4a-7124-4111-8981-fc950ea690fa" />
 
 * *Cancellation Rate by Platform* (Count aggregation)
-<img width="778" height="525" alt="image" src="https://github.com/user-attachments/assets/b6e88e6e-77e1-464d-b1c2-b85ab4d9985b" />
+<img width="770" height="513" alt="image" src="https://github.com/user-attachments/assets/5ccabcf9-dc4d-4af8-9c51-c19180c06795" />
 
 * *Average Lead Time by Room Type*
-<img width="828" height="532" alt="image" src="https://github.com/user-attachments/assets/a5cf9132-0d9d-4711-a445-0564d2e70916" />
+<img width="825" height="531" alt="image" src="https://github.com/user-attachments/assets/bd21c4b2-518c-4d76-b7e1-44e1e520bc6c" />
 
 ---
 
