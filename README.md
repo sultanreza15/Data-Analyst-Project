@@ -108,7 +108,7 @@ Based on the SQL analysis performed, here are the key insights:
 <img width="453" height="137" alt="image" src="https://github.com/user-attachments/assets/8a7c266d-64b0-452a-98b6-3e195b6456a7" />
 
 
-# The Aurora Sky Hotel: Occupancy & Revenue Analysis
+# 4. The Aurora Sky Hotel: Occupancy & Revenue Analysis
 
 ## Project Overview
 **The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
@@ -185,6 +185,6 @@ Created a visual dashboard focusing on clear, high-level KPIs:
 
 ## Key Insights (Sample Findings)
 Based on the analysis of the sample dataset:
-1.  **Revenue Drivers:** While 'Standard' rooms have the highest volume of bookings, **'Suite'** rooms generate the highest revenue per booking due to the premium price point.
+1.  **Revenue Drivers:** While 'Standard' rooms have the highest volume of bookings, **'Deluxe'** rooms generate the highest revenue per booking due to the premium price point.
 2.  **Cancellation Risks:** **Expedia** showed a higher cancellation rate compared to Direct bookings, suggesting a need to review cancellation policies on OTA platforms.
-3.  **Lead Time:** Guests booking 'Suites' tend to book further in advance (High Lead Time) compared to 'Standard' room guests who are more likely to be last-minute bookers.
+3.  **Lead Time:** Guests booking 'Deluxe' tend to book further in advance (High Lead Time) compared to 'Standard' room guests who are more likely to be last-minute bookers.
