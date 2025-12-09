@@ -142,6 +142,20 @@ Case 9: Comparing Transactions by Payment Method (Percentage Breakdown)
 
 <img width="558" height="123" alt="image" src="https://github.com/user-attachments/assets/b7717103-fb6b-4bd6-916d-50f0f14a5c3a" />
 
+## Project Conclusions & Business Insights
+Based on the SQL analysis performed on the smartphone sales dataset, several key business insights were derived:
+
+### 1. Product Performance & Revenue Drivers
+* **High-End Dominance:** Flagship models (e.g., iPhone 16 Pro Max, Samsung S24 Ultra) contribute significantly to the total revenue despite having lower sales volume compared to mid-range devices. This suggests a high profit margin strategy is effective.
+* **Volume Drivers:** Mid-range phones (e.g., Samsung Galaxy A55, Poco F6) drive the transaction volume, acting as the entry point for new customers.
+
+### 2. Customer Behavior & Segmentation
+* **The "Sultan" Segment:** Through the segmentation analysis (Case #6), we identified a specific cluster of "High-Value" customers. Although small in number, this group contributes a disproportionate amount to the total revenue (Pareto Principle), indicating that retention strategies should focus heavily on these VIP clients.
+* **Spending Patterns:** Top spenders tend to make purchases in Q1 2025, likely driven by new flagship release cycles.
+
+### 3. Payment Preferences
+* **Transaction Value Correlation:** There is a clear correlation between transaction size and payment method. High-ticket purchases (> IDR 10 Million) are predominantly made via **Credit Card** and **Bank Transfer**, while **QRIS** and **Cash** are preferred for mid-range and budget accessories.
+
 
 # 4. The Aurora Sky Hotel Analyst (Excel)
 
