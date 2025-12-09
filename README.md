@@ -150,7 +150,7 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 * **Volume Drivers:** Mid-range phones (e.g., Samsung Galaxy A55, Poco F6) drive the transaction volume, acting as the entry point for new customers.
 
 ### 2. Customer Behavior & Segmentation
-* **The "Sultan" Segment:** Through the segmentation analysis (Case #6), we identified a specific cluster of "High-Value" customers. Although small in number, this group contributes a disproportionate amount to the total revenue (Pareto Principle), indicating that retention strategies should focus heavily on these VIP clients.
+* **The High Value Segment:** Through the segmentation analysis (Case #6), we identified a specific cluster of "High-Value" customers. Although small in number, this group contributes a disproportionate amount to the total revenue (Pareto Principle), indicating that retention strategies should focus heavily on these VIP clients.
 * **Spending Patterns:** Top spenders tend to make purchases in Q1 2025, likely driven by new flagship release cycles.
 
 ### 3. Payment Preferences
