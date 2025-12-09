@@ -107,30 +107,39 @@ The database is designed using a simple **Star Schema** consisting of three main
 Below are the main business questions addressed in this project:
 
 Case 1: “What is our total revenue so far?”
+
 <img width="286" height="71" alt="image" src="https://github.com/user-attachments/assets/9db2eae6-a49d-4d7e-8b66-653f5b7d929a" />
 
 Case 2: “Which smartphone is the best-selling product?”
+
 <img width="255" height="101" alt="image" src="https://github.com/user-attachments/assets/ca7c59c1-73a7-4f0c-9f41-131ae88d1111" />
 
 Case 3: “Who is our top-spending customer?” (Top Spender)
+
 <img width="338" height="140" alt="image" src="https://github.com/user-attachments/assets/16519bf2-0a1f-4bde-88ec-074b03f1d868" />
    
 Case 4: “What does the monthly sales trend look like?”
+
 <img width="358" height="122" alt="image" src="https://github.com/user-attachments/assets/25c3fc86-6a67-41eb-ad02-9fa7854b5f8e" />
 
 Case 5: “Which brand contributes the most to our total revenue?”
+
 <img width="217" height="186" alt="image" src="https://github.com/user-attachments/assets/ac453999-e2c9-4a0c-8352-ae8206a280a2" />
 
 Case 6: Customer Segmentation (Data Labeling Technique)
+
 <img width="405" height="242" alt="image" src="https://github.com/user-attachments/assets/75627137-3b6d-4198-9240-1056bb43a32d" />
 
 Case 7: Finding Products Priced “Above Average” (Subquery)
+
 <img width="387" height="186" alt="image" src="https://github.com/user-attachments/assets/1527d178-d3c4-4243-b115-df1823444198" />
 
 Case 8: Pareto/Contribution Analysis (Identifying High-Value Transactions)
+
 <img width="432" height="166" alt="image" src="https://github.com/user-attachments/assets/d053e4ee-1a7c-4527-af00-c1f46cf562ba" />
 
 Case 9: Comparing Transactions by Payment Method (Percentage Breakdown)
+
 <img width="558" height="123" alt="image" src="https://github.com/user-attachments/assets/b7717103-fb6b-4bd6-916d-50f0f14a5c3a" />
 
 
