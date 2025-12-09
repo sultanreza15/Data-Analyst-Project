@@ -1,11 +1,11 @@
 ## Table of Contents
-- [1. Prediction Model (Python-Jupyter Notebook)](#1-prediction-model-python-jupyter-notebook)
-- [2. Clustering Model (Python-Jupyter Notebook)](#2-clustering-model-python-jupyter-notebook)
-- [3. Smartphone Sales Data Analysis Project (SQL)](#3-smartphone-sales-data-analysis-project-sql)
-- [4. The Aurora Sky Hotel Analyst (Excel)](#4-the-aurora-sky-hotel-analyst-excel)
+- [A. Prediction Model (Python-Jupyter Notebook)](#a-prediction-model-python-jupyter-notebook)
+- [B. Clustering Model (Python-Jupyter Notebook)](#b-clustering-model-python-jupyter-notebook)
+- [C. Smartphone Sales Data Analysis Project (SQL)](#c-smartphone-sales-data-analysis-project-sql)
+- [D. The Aurora Sky Hotel Analyst (Excel)](#d-the-aurora-sky-hotel-analyst-excel)
 
 
-# **1. Prediction Model (Python-Jupyter Notebook)**  
+# **A. Prediction Model (Python-Jupyter Notebook)**  
 
 **Background:**
 FinanKu is an imaginary fintech startup that provides savings and lending facilities to its customers. The services they offer include Savings Accounts, Time Deposits, Unsecured Loans, Credit Cards, and Vehicle Financing for Cars & Motorcycles.
@@ -36,7 +36,7 @@ Across all models, the average accuracy exceeds 60%, but the recall remains belo
 * Try alternative supervised machine learning algorithms.
 
 
-# **2. Clustering Model (Python-Jupyter Notebook)**
+# **B. Clustering Model (Python-Jupyter Notebook)**
 
 **Background:**
 FundFusion, a banking institution in Wakanda, aims to enhance its marketing efforts toward both existing and potential customers. One of its marketing strategies is conducting phone-based campaigns, or telemarketing, where products are promoted directly through phone calls.
@@ -84,7 +84,7 @@ Projected Business Impact of Implementing This Clustering Strategy:
 3. Increased Cross-Selling: Targeting Seniors who lack Savings Accounts can significantly boost Third-Party Funds (DPK).
 
 
-# 3. Smartphone Sales Data Analysis Project (SQL)
+# C. Smartphone Sales Data Analysis Project (SQL)
 
 ## Introduction
 
@@ -164,7 +164,7 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 * **Transaction Value Correlation:** There is a clear correlation between transaction size and payment method. High-ticket purchases (> IDR 10 Million) are predominantly made via **Credit Card** and **Bank Transfer**, while **QRIS** and **Cash** are preferred for mid-range and budget accessories.
 
 
-# 4. The Aurora Sky Hotel Analyst (Excel)
+# D. The Aurora Sky Hotel Analyst (Excel)
 
 ## Project Overview
 **The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
