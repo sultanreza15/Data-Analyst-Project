@@ -115,8 +115,6 @@ Based on the SQL analysis performed, here are the key insights:
 
 The goal is to provide the hotel management with a data-driven **Dashboard** to support decision-making regarding pricing strategies and marketing channel optimization.
 
-<img width="1572" height="586" alt="image" src="https://github.com/user-attachments/assets/82c230ea-63a0-4c7a-92cf-f734e0efca6d" />
-
 ---
 
 ### 💼 Business Problem & Objectives
