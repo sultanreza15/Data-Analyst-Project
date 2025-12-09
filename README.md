@@ -183,7 +183,7 @@ Created a visual dashboard focusing on clear, high-level KPIs:
 * *Revenue by Room Type*
 <img width="755" height="505" alt="image" src="https://github.com/user-attachments/assets/196d9c4a-7124-4111-8981-fc950ea690fa" />
 
-* *Cancellation Rate by Platform*
+* *Booking Status by Platform*
 <img width="770" height="513" alt="image" src="https://github.com/user-attachments/assets/5ccabcf9-dc4d-4af8-9c51-c19180c06795" />
 
 * *Average Lead Time by Room Type*
