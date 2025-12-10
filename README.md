@@ -165,7 +165,7 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 * **Transaction Value Correlation:** There is a clear correlation between transaction size and payment method. High-ticket purchases (> IDR 10 Million) are predominantly made via **Credit Card** and **Bank Transfer**, while **QRIS** and **Cash** are preferred for mid-range and budget accessories.
 
 
-# D. The Aurora Sky Hotel Analyst (Excel)
+# D. The Aurora Sky Hotel Analyst (Excel & Power BI)
 
 ## Project Overview
 **The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
@@ -203,7 +203,7 @@ The dataset consists of **30 records** (simulated data) representing hotel booki
 ---
 
 ## Methodology & Technical Skills
-This project was built entirely in **Google Sheets** (compatible with Excel) to demonstrate data manipulation and visualization skills without using programming languages like Python or SQL.
+This project was built entirely in **Google Sheets** (compatible with Excel) and **Power BI** to demonstrate data manipulation and visualization skills without using programming languages like Python or SQL.
 
 ### 1. Data Cleaning & Feature Engineering
 Raw data was transformed to generate meaningful metrics. Key formulas used:
@@ -235,10 +235,10 @@ Used **Pivot Tables** to summarize key metrics:
 * *Average Lead Time by Room Type* (Count aggregation)
 <img width="285" height="147" alt="image" src="https://github.com/user-attachments/assets/6f649014-bdf6-49b9-8d8f-22654d6e725e" />
 
-### 3. Dashboard Implementation
+### 3. Dashboard Implementation (with Power BI)
 Created a visual dashboard focusing on clear, high-level KPIs:
 * *Revenue by Room Type*
-<img width="755" height="505" alt="image" src="https://github.com/user-attachments/assets/196d9c4a-7124-4111-8981-fc950ea690fa" />
+<img width="606" height="487" alt="image" src="https://github.com/user-attachments/assets/5ec2cd82-db04-45a9-b965-93c79867010f" />
 
 * *Booking Status by Platform*
 <img width="770" height="513" alt="image" src="https://github.com/user-attachments/assets/5ccabcf9-dc4d-4af8-9c51-c19180c06795" />
