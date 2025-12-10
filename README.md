@@ -2,7 +2,7 @@
 - [A. Prediction Model (Python-Jupyter Notebook)](#a-prediction-model-python-jupyter-notebook)
 - [B. Clustering Model (Python-Jupyter Notebook)](#b-clustering-model-python-jupyter-notebook)
 - [C. Smartphone Sales Analyst (SQL)](#c-smartphone-sales-analyst-sql)
-- [D. The Aurora Sky Hotel Analyst (Excel)](#d-the-aurora-sky-hotel-analyst-excel)
+- [D. The Aurora Sky Hotel Analyst (Excel & Power BI)](#d-the-aurora-sky-hotel-analyst-excel-&-power-bi)
 
 
 
