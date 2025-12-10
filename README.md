@@ -155,13 +155,22 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 ### 1. Product Performance & Revenue Drivers
 * **High-End Dominance:** Flagship models (e.g., iPhone 16 Pro Max, Samsung S24 Ultra) contribute significantly to the total revenue despite having lower sales volume compared to mid-range devices. This suggests a high profit margin strategy is effective.
 * **Volume Drivers:** Mid-range phones (e.g., Samsung Galaxy A55, Poco F6) drive the transaction volume, acting as the entry point for new customers.
+* **Recommendation:**
+    * **Inventory Strategy:** Prioritize stock availability for Flagship models to prevent "stock-outs" which lead to significant revenue loss.
+    * **Bundling Strategy:** Create bundle offers for Mid-range phones (e.g., Phone + Accessories) to increase the *Average Order Value* (AOV) from the high volume customer segment.
 
 ### 2. Customer Behavior & Segmentation
 * **The High Value Segment:** Through the segmentation analysis (Case #6), we identified a specific cluster of "High-Value" customers. Although small in number, this group contributes a disproportionate amount to the total revenue (Pareto Principle), indicating that retention strategies should focus heavily on these VIP clients.
 * **Spending Patterns:** Top spenders tend to make purchases in Q1 2025, likely driven by new flagship release cycles.
+* **Recommendation:**
+    * **Loyalty Program:** Implement a tiered loyalty program. Offer the "Sultan" segment exclusive perks such as **Priority Pre-order** slots for upcoming flagship releases (iPhone 17/S25) or personalized after-sales service.
+    * **Targeted Marketing:** Avoid sending budget promo blasts to this segment; focus on "Upgrade" offers instead.
 
 ### 3. Payment Preferences
 * **Transaction Value Correlation:** There is a clear correlation between transaction size and payment method. High-ticket purchases (> IDR 10 Million) are predominantly made via **Credit Card** and **Bank Transfer**, while **QRIS** and **Cash** are preferred for mid-range and budget accessories.
+* **Recommendation:**
+    * **Payment Partnerships:** Collaborate with banks to offer **0% Installment Programs** for Credit Card users, specifically for purchases above IDR 10 Million. This can reduce friction for customers hesitating to buy expensive flagships.
+    * **Checkout Optimization:** Ensure the checkout process for high-value carts highlights "Installment" or "Secure Transfer" options first.
 
 
 # D. The Aurora Sky Hotel Analyst (Excel & Power BI)
