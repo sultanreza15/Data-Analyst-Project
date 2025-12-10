@@ -241,15 +241,52 @@ Created a visual dashboard focusing on clear, high-level KPIs:
 <img width="606" height="487" alt="image" src="https://github.com/user-attachments/assets/5ec2cd82-db04-45a9-b965-93c79867010f" />
 
 * *Booking Status by Platform*
-<img width="770" height="513" alt="image" src="https://github.com/user-attachments/assets/5ccabcf9-dc4d-4af8-9c51-c19180c06795" />
+<img width="722" height="466" alt="image" src="https://github.com/user-attachments/assets/37028789-88b6-48e5-a3c4-a05005575bc1" />
+
+1. Only Deluxe room
+<img width="688" height="517" alt="image" src="https://github.com/user-attachments/assets/34d7f3c0-85fe-40cc-87f0-eb9cd5c4f384" />
+
+2. Only Suite Room
+<img width="697" height="498" alt="image" src="https://github.com/user-attachments/assets/e1714886-d70c-4f04-865a-13a660cd0ef7" />
+
+3. Only Standard Room
+<img width="668" height="507" alt="image" src="https://github.com/user-attachments/assets/ad097bdb-c697-40a7-9d82-4afd85a3f6a7" />
 
 * *Average Lead Time by Room Type*
-<img width="825" height="531" alt="image" src="https://github.com/user-attachments/assets/bd21c4b2-518c-4d76-b7e1-44e1e520bc6c" />
+<img width="711" height="437" alt="image" src="https://github.com/user-attachments/assets/e6d75f06-8b1a-4ab9-9a54-c9ce4d8656b9" />
 
 ---
 
 ## Key Insights (Sample Findings)
-Based on the analysis of the sample dataset:
-1.  **Revenue Drivers:** While 'Standard' rooms have the highest volume of bookings, **'Deluxe'** rooms generate the highest revenue per booking due to the premium price point.
-2.  **Cancellation Risks:** **Expedia** showed a higher cancellation rate compared to Direct bookings, suggesting a need to review cancellation policies on OTA platforms.
-3.  **Lead Time:** Guests booking 'Deluxe' tend to book further in advance (High Lead Time) compared to 'Standard' room guests who are more likely to be last-minute bookers.
+1. Total Revenue by Room Type
+
+Analysis Result: The Deluxe room type is the highest revenue contributor (Top Revenue Generator). This indicates that Deluxe is the most efficient product, offering the best balance between strong booking volume and a moderately premium price point.
+
+* Revenue Ranking: Deluxe (1st) > Suite (Middle) > Standard.
+* Insight: Guests tend to seek more comfort (upgrade) rather than choosing a basic Standard room, but they are also not willing to spend too much for a Suite.
+
+Solutions & Recommendations (Action Plan):
+
+* Focus on Upselling (Standard → Deluxe): Since Deluxe is the crowd favorite, target Standard-room guests for an upgrade. Offer appealing deals during check-in (e.g., “Add $20 to upgrade to Deluxe”). This is an easy revenue booster because the price gap is smaller compared to Suite.
+* Availability Management: Ensure Deluxe room inventory is well-managed, especially during peak dates. Avoid running out of Deluxe rooms, as they are the hotel’s primary revenue driver.
+
+2. Booking Volume by Platform & Status
+
+Analysis Result: OTA platforms (Expedia, Agoda, Booking.com) generate the highest booking traffic. However, they also have significantly higher cancellation rates compared to Direct Booking. High OTA cancellations lead to revenue leakage and operational uncertainty.
+
+Solutions & Recommendations (Action Plan):
+
+* Review Cancellation Policies: Tighten cancellation rules for platforms with the highest cancellation ratios (e.g., change from “Free Cancel D-1” to “Non-Refundable” for promotional rates).
+* Push Direct Booking: Launch “Book Direct & Save” campaigns or offer exclusive perks (free breakfast, late check-out) to guests who book directly. This reduces OTA commissions and lowers cancellation risks.
+
+3. Average Lead Time by Room Type
+
+Analysis Result: There is a clear contrast in booking behavior:
+* Standard Room: Short lead time (average 9 days). Guests often book at the last minute.
+* Suite/Deluxe: Long lead time (average 15-17 days). Guests plan their stays well in advance.
+
+Solutions & Recommendations (Action Plan):
+
+Dynamic Pricing Strategy:
+* Standard: Gradually increase prices as the check-in date approaches (D-3 to D-Day), as demand is inelastic—guests booking last-minute typically need the room urgently.
+* Suite/Deluxe: Implement Early Bird discounts to encourage advanced bookings, helping secure occupancy and revenue earlier in the month.
