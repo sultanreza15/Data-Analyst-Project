@@ -163,7 +163,7 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 * **The High Value Segment:** Through the segmentation analysis (Case #6), we identified a specific cluster of "High-Value" customers. Although small in number, this group contributes a disproportionate amount to the total revenue (Pareto Principle), indicating that retention strategies should focus heavily on these VIP clients.
 * **Spending Patterns:** Top spenders tend to make purchases in Q1 2025, likely driven by new flagship release cycles.
 * **Recommendation:**
-    * **Loyalty Program:** Implement a tiered loyalty program. Offer the "Sultan" segment exclusive perks such as **Priority Pre-order** slots for upcoming flagship releases (iPhone 17/S25) or personalized after-sales service.
+    * **Loyalty Program:** Implement a tiered loyalty program. Offer the High Value segment exclusive perks such as **Priority Pre-order** slots for upcoming flagship releases (iPhone 17/S25) or personalized after-sales service.
     * **Targeted Marketing:** Avoid sending budget promo blasts to this segment; focus on "Upgrade" offers instead.
 
 ### 3. Payment Preferences
