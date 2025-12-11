@@ -2,7 +2,7 @@
 - [A. Prediction Model (Python-Jupyter Notebook)](#a-prediction-model-python-jupyter-notebook)
 - [B. Clustering Model (Python-Jupyter Notebook)](#b-clustering-model-python-jupyter-notebook)
 - [C. Smartphone Sales Analyst (SQL)](#c-smartphone-sales-analyst-sql)
-- [D. The Aurora Sky Hotel Analyst (Excel & Power BI)](#d-the-aurora-sky-hotel-analyst-excel--power-bi)
+- [D. Hotel Analyst (Excel & Power BI)](#d-hotel-analyst-excel--power-bi)
 
 
 # **A. Prediction Model (Python-Jupyter Notebook)**  
@@ -173,10 +173,10 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
     * **Checkout Optimization:** Ensure the checkout process for high-value carts highlights "Installment" or "Secure Transfer" options first.
 
 
-# D. The Aurora Sky Hotel Analyst (Excel & Power BI)
+# D. Hotel Analyst (Excel & Power BI)
 
 ## Project Overview
-**The Aurora Sky Hotel** is a fictional 4-star hotel facing challenges with stagnant revenue and fluctuating cancellation rates. This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
+This project aims to analyze booking data to understand guest behavior, identify revenue drivers, and monitor cancellation trends across different booking platforms.
 
 The goal is to provide the hotel management with a data-driven **Dashboard** to support decision-making regarding pricing strategies and marketing channel optimization.
 
