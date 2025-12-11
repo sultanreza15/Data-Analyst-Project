@@ -180,14 +180,17 @@ Based on the SQL analysis performed on the smartphone sales dataset, several key
 
 The goal is to provide the hotel management with a data-driven **Dashboard** to support decision-making regarding pricing strategies and marketing channel optimization.
 
+## Tools Used
+* **Data & Pivot Table:** Excel (Google Sheets)
+* **Visualization:** Power BI
+
 ---
 
 ### Business Problem & Objectives
 The management team required visibility into:
-1.  **Realized Revenue:** Ensuring cancelled bookings are not calculated into the financial forecast.
-2.  **Platform Performance:** Which booking channels (Agoda, Expedia, etc.) provide the most reliable guests?
-3.  **Room Type Analysis:** Which room category drives the most revenue vs. volume?
-4.  **Lead Time Insights:** How far in advance do guests book?
+* **Identify Top Revenue Drivers:** It was unclear which room category acted as the financial backbone of the hotel. The objective was to analyze Realized Revenue by Room Type to determine whether volume (Standard rooms) or margin (Suites) drove profits, or if there was a "sweet spot" (Deluxe) that should be prioritized for upselling.
+* **Mitigate Revenue Leakage from Cancellations:** High cancellation rates were causing operational uncertainty. The goal was to break down Booking Status by Platform to identify which channels (OTAs vs. Direct) were delivering reliable guests versus those prone to cancellations, enabling better channel management.
+* **Optimize Dynamic Pricing Strategy:** The hotel applied a static pricing model. The objective was to analyze Average Lead Time by Room Type to understand guest booking behaviors (last-minute vs. planned), allowing the hotel to implement targeted dynamic pricing (e.g., surging prices for short lead-time segments).
 
 ---
 
